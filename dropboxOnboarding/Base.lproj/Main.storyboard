@@ -180,7 +180,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ftb-PJ-haH" kind="push" id="GQv-mE-Kpd"/>
+                                    <segue destination="Ftb-PJ-haH" kind="custom" customClass="noAnimationPushSegue" customModule="dropboxOnboarding" id="GQv-mE-Kpd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Voa-wG-Ui7">
@@ -288,7 +288,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cKa-iM-UJd" kind="push" id="5Bw-t3-MeN"/>
+                                    <segue destination="cKa-iM-UJd" kind="custom" customClass="noAnimationPushSegue" customModule="dropboxOnboarding" id="5Bw-t3-MeN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MRh-vY-84q">
@@ -299,16 +299,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onWelcomeButtonTouch:" destination="GLc-A0-1l8" eventType="touchUpInside" id="SUU-3G-fbe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="efR-AR-5mO">
-                                <rect key="frame" x="72" y="198" width="190" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="7Id-ef-wXj" kind="modal" animates="NO" id="apW-E1-pKe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -367,7 +357,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SnY-ii-Zr3" kind="push" id="Bx1-C7-faw"/>
+                                    <segue destination="SnY-ii-Zr3" kind="custom" customClass="noAnimationPushSegue" customModule="dropboxOnboarding" id="Bx1-C7-faw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j5z-6W-9ue">
@@ -675,7 +665,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iz5-id-tv9" kind="push" id="F2K-6W-5xd"/>
+                                    <segue destination="iz5-id-tv9" kind="custom" customClass="noAnimationPushSegue" customModule="dropboxOnboarding" id="F2K-6W-5xd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create2" id="Lcd-Sd-Yno">
@@ -721,17 +711,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qW0-IF-Ik6" kind="push" id="YSc-9a-rGz"/>
+                                    <segue destination="qW0-IF-Ik6" kind="custom" customClass="noAnimationPushSegue" customModule="dropboxOnboarding" id="YSc-9a-rGz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YAB-ye-8Jj">
-                                <rect key="frame" x="5" y="16" width="104" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MDd-NN-ATE">
+                                <rect key="frame" x="0.0" y="20" width="106" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onWelcomeButtonTouch:" destination="hBC-SM-Okk" eventType="touchUpInside" id="YKJ-d1-war"/>
+                                    <action selector="onWelcomeButtonTouch:" destination="Ftb-PJ-haH" eventType="touchUpInside" id="R2M-qs-z9J"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -891,7 +881,7 @@
                                         <color key="backgroundColor" red="0.94117653369903564" green="0.95294123888015747" blue="0.96078437566757202" alpha="1" colorSpace="deviceRGB"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wt8-2e-dnW">
-                                        <rect key="frame" x="0.0" y="36" width="327" height="38"/>
+                                        <rect key="frame" x="0.0" y="691" width="327" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1126,13 +1116,12 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2yC-ir-HJi">
-                                        <rect key="frame" x="0.0" y="471" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="691" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="onSignedOutButton:" destination="Sci-VD-fGR" eventType="touchUpInside" id="4NU-4J-SxX"/>
                                             <segue destination="Bd3-4h-kjw" kind="modal" animates="NO" id="lGK-7M-vOk"/>
                                         </connections>
                                     </button>
@@ -1149,7 +1138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Vc-2A-ccv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3342" y="3368"/>
+            <point key="canvasLocation" x="3342" y="3380"/>
         </scene>
     </scenes>
     <resources>
@@ -1187,9 +1176,8 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="QF2-K5-pcN"/>
+        <segue reference="kB5-8k-hpe"/>
+        <segue reference="Ezz-jz-2m4"/>
         <segue reference="lGK-7M-vOk"/>
-        <segue reference="MzO-Qv-y1j"/>
-        <segue reference="f5a-VT-ebQ"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -15,7 +15,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func onCancelButtonTouch(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(false, completion: nil)
     }
     
     override func viewDidLoad() {
